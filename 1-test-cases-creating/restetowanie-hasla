@@ -1,0 +1,24 @@
+ID:5
+Tytuł:
+Resetowanie hasła - wysłanie linku do użytkownika
+
+Priorytet:
+Wysoki
+
+Opis:
+Użytkownik podejmuje próbę zresetowania hasła.
+
+Kroki do wykonania przypadku:
+    1. Wejdź na stronę ‘login.pracuj.pl’.
+    2. Kliknij w link ‘zapomniałeś hasła?’
+    3. Podaj adres e-mail.
+    4. Wejdź na pocztę i kliknij link potwierdzający zmianę hasła.
+    
+Warunki wstępne do wykonania testu:
+Użytkownik musi być zarejestrowany na portalu pracuj.pl. Należy podać adres e-mailowy, który został podany przy rejestracji na stronie ‘pracuj.pl’.
+
+Typ testu:
+Pozytywny (+)
+
+Środowisko:
+Windows 10, Chrome  80.0.3987.149
