@@ -1,0 +1,27 @@
+ID: 3
+Tytuł:Niepoprawne wpisanie loginu
+
+Priorytet:
+Wysoki
+
+Opis:
+Użytkownik wpisuje w rubryce login ciąg znaków, który nie zawiera znaku ‘@’.
+
+Kroki do wykonania przypadku:
+        1. Wejdź na stronę ‘login.pracuj.pl’.
+        2. W polu ‘adres e-mail’’ wpisz niepoprawny login, np. ‘wiera1wp.pl’.
+        3. W polu ‘hasło’ wpisz hasło.
+        4. Kliknij przycisk ‘Zaloguj się’.
+        5. Kliknij w podpowiadane informacje, które pokażą się zamaskowane.
+        
+Oczekiwany rezultat:
+Użytkownik otrzymuje komunikat: ‘Uwzględnij znak „@” w adresie e-mail. W adresie „wiera1wp.pl” brakuje znaku „@”.’
+
+Warunki wstępne do wykonania testu:
+Użytkownik musi być zarejestrowany na portalu pracuj.pl.
+
+Typ testu:
+Negatywny (-)
+
+Środowisko:
+Windows 10, Chrome  80.0.3987.149
