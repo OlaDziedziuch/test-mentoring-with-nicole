@@ -1,0 +1,27 @@
+ID: 4
+Tytuł:
+Niepoprawne wpisanie hasła
+
+Priorytet:
+Wysoki
+
+Opis:
+Użytkownik wpisuje błędnie hasło.
+
+Kroki do wykonania przypadku:
+      1. Wejdź na stronę ‘login.pracuj.pl’.
+      2. W polu ‘adres e-mail’ wpisz login.
+      3. W polu ‘hasło’ wpisz niepoprawne hasło.
+      4. Kliknij przycisk ‘Zaloguj się’.
+      
+Oczekiwany rezultat:
+Użytkownik otrzymuje komunikat: ‘Możliwe, że nie potwierdziłeś swojego konta lub 3 razy użyłeś złego hasła. Sprawdź pocztę lub spróbuj później.’
+
+Warunki wstępne do wykonania testu:
+Użytkownik musi być zarejestrowany na portalu pracuj.pl oraz musi wpisać poprawny login.
+
+Typ testu:
+Negatywny (-)
+
+Środowisko:
+Windows 10, Chrome  80.0.3987.149
