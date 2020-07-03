@@ -1,0 +1,32 @@
+
+ID: 2
+Tytuł: Dodanie zdjęcia profilowego
+
+Priorytet:
+Wysoki
+
+Warunki wstępne do wykonania testu:
+Utworzone konto na platformie facebook.com
+
+Typ testu:
+Pozytywny (+)
+
+Środowisko:
+Windows 10, Chrome  80.0.3987.149
+
+Opis:
+Użytkownik ma możliwość dodania wybranego przez siebie zdjęcia profilowego.
+
+Kroki do wykonania przypadku:
+    1. Wejdź na stronę ‘facebook.com’.
+    2. Zaloguj się do konta przy pomocy loginu i hasła.
+    3. Kliknij w pole ‘Profil’, znajdujący się w menu strony (po prawej stronie, od okna wyszukiwarki).
+    4. Kliknij w okrągłą ikonę ze zdjęciem profilowym  ‘Dodaj zdjęcie’.
+    5. Pojawi się nowe okno, w którym kliknij ‘Dodaj zdjęcie’.
+    6. Wybierz zdjęcie.
+    7. Kliknij w przycisk ‘Otwórz’.
+    8. Dokonaj ewentualnych zmian w ustawieniu zdjęcia (przesuń / przewiń / przytnij / dodaj opis do zdjęcia). -> możliwy osobn test.
+    9. Kliknij w przycisk ‘Zapisz’.
+
+Oczekiwany rezultat:
+Użytkownik dodaje zdjęcie do swojego profilu, które jest widoczne dla wszystkich użytkowników. 
