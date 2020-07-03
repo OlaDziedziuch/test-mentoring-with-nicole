@@ -1,0 +1,35 @@
+
+ID:1
+Tytuł: Rejestracja konta za pomocą adresu e-mail.
+
+Priorytet:
+Wysoki
+
+Warunki wstępne do wykonania testu:
+Posiadanie aktywnego adresu e-mail
+
+Typ testu:
+Pozytywny (+)
+
+Środowisko:
+Windows 10, Chrome  80.0.3987.149
+
+Opis:
+Użytkownik za pomocą podanych danych zakłada nowe konto na platformie facebook.com. Do tego celu podaje wymagane dane takie jak adres e-mail.
+
+Kroki do wykonania przypadku:
+    1. Wejdź na stronę ‘facebook.com’.
+    2. W polu "Imię" wpisz swoje imię.
+    3. W polu “Nazwisko" wpisz swoje nazwisko.
+    4. W polu “Numer telefonu komórkowego lub e-mail" wpisz e-mail.
+    5. Potwierdź adres e-mail.
+    6. W polu "Nowe hasło" wpisz hasło.
+    7. W polu "Data urodzenia" wybierz datę swoich urodzin.
+    8. W polu "Płeć "wybierz płeć.
+    9. Kliknij przycisk "Zarejestruj się".
+    10. Potwierdź datę swoich urodzin.
+    11. Potwierdź kod otrzymany w wiadomości e-mail.
+    12. Kliknij przycisk ‘Kontynuuj’.
+    
+Oczekiwany rezultat:
+Użytkownik uzyskuje dostęp do swojego profilu.
