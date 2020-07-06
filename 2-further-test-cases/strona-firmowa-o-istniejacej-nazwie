@@ -1,0 +1,31 @@
+
+ID: 4
+Tytuł: Utworzenie strony firmowej o już istniejącej nazwie.
+
+Priorytet:
+Wysoki
+
+Warunki wstępne do wykonania testu:
+Utworzone konto na platformie facebook.com
+
+Typ testu:
+Negatywny (-)
+
+Środowisko:
+Windows 10, Chrome  80.0.3987.149
+
+Opis:
+Użytkownik tworzy profil firmowy, który jest już uprzednio założony przez innego użytkownika.
+
+Kroki do wykonania przypadku:
+
+  1. Wejdź na stronę ‘facebook.com’.
+  2. Zaloguj się do konta przy pomocy loginu i hasła.
+  3. W menu znajdującym się na górze strony kliknij w przycisk ‘Utwórz’, następnie wybierz ‘Strona’.
+  4. Pojawi się zakładka ‘Wybierz stronę’, kliknij w przycisk ‘Rozpocznij’ znajdującym się w pod ikoną ‘ Firma lub marka - Zaprezentuj swoje produkty i usługi, wyróżnij swoją markę i dotrzyj do większej liczby klientów na Facebooku.’
+  5. W polu ‘Nazwa strony’ wpisz nazwę już istniejącej marki.
+  6. W polu ‘Kategoria’ wpisz kategorię opisującą stronę.
+  7. Kliknij przycisk ‘Kontynuuj’.
+  
+Oczekiwany rezultat:
+Użytkownik może utworzyć stronę firmową o podanej przez siebie nazwie, bez względu czy taka już istnieje czy też nie.
