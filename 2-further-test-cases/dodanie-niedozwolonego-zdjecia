@@ -1,0 +1,28 @@
+ID: 3
+Tytuł: Dodanie zdjęcia, które zawiera niedozwolone treści.
+
+Priorytet:
+Wysoki
+
+Warunki wstępne do wykonania testu:
+Utworzone konto na platformie facebook.com
+
+Typ testu:
+Negatywny (-)
+
+Środowisko:
+Windows 10, Chrome  80.0.3987.149
+
+Opis:
+Użytkownik ma możliwość dodania wybranego przez siebie zdjęcia, które nie nawiązuje do mowy nienawiści.
+
+Kroki do wykonania przypadku
+  1. Wejdź na stronę ‘facebook.com’.
+  2. Zaloguj się do konta przy pomocy loginu i hasła.
+  3. W oknie ‘Utwórz post’ kliknij w ikonę ‘Zdjęcie/film’.
+  4. Wybierz zdjęcie.
+  5. Kliknij w przycisk ‘Otwórz’.
+  6. Kliknij w przycisk ‘Opublikuj’.
+  
+Oczekiwany rezultat:
+Użytkownik może dodać dowolne wybrane przez siebie zdjęcie.
