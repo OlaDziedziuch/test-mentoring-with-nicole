@@ -1,0 +1,35 @@
+
+ID: 5
+Tytuł: Trwałe usunięcie konta.
+
+Priorytet:
+Wysoki
+
+Warunki wstępne do wykonania testu:
+Utworzone konto na platformie facebook.com
+
+Typ testu:
+Pozytywny (+)
+
+Środowisko:
+Windows 10, Chrome  80.0.3987.149
+
+Opis:
+Użytkownik usuwa konto na stałe.
+
+Kroki do wykonania przypadku:
+    1. Wejdź na stronę ‘facebook.com’.
+    2. Zaloguj się do konta przy pomocy loginu i hasła.
+    3. Kliknij  w prawym górnym rogu dowolnej strony Facebooka.
+    4. Kliknij opcję ‘Ustawienia’, a następnie ‘Twoje informacje na Facebooku’ w kolumnie z lewej strony.
+    5. Kliknij opcję’ Dezaktywacja i usunięcie’.
+    6. Wybierz opcję ‘Usuń konto na stałe’.
+    7. Kliknij przycisk ‘Kontynuuj do usuwania konta’.
+    8. Kliknij przycisk ‘Usuń konto’.
+    9. Potwierdź operację, wpisując hasło.
+    10. Kliknij przycisk ‘Kontynuuj’.
+    11. Potwierdź usunięcie konta klikając przycisk ‘Usuń konto’.
+    12. Próba ponownego zalogowania się.
+
+Oczekiwany rezultat:
+Użytkownik całkowicie usuwa konto.
