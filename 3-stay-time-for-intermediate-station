@@ -1,0 +1,38 @@
+
+ID: 1
+Title: ‘Stay time’ for intermediate station - function check
+
+Priority:
+Medium
+
+Prerequisites:
+None
+
+Test type:
+Positive (+)
+
+Environment:
+Windows 10, Chrome  80.0.3987.149
+
+Description:
+Test describes results for connection included possibility to stay at intermediate station for at least 10 minutes.
+
+Test scenario:
+     1.Go to website: www.rozklad-pkp.pl.
+     2.Enter 'From': 'Warszawa Centralna'.
+     3.Click  'Add intermediate station'.
+     4.Enter 'Via': 'Poznań Główny'.
+     5.Enter 'Stay time' and select '00:10'.
+     6.Enter 'To':  'Szczecin Główny'.
+     7.Choose 'Select date': '8 April 2020'.
+     8.Click  ‘Select date’ button.
+     9.Enter  'Enter the time’:  '14:00'.
+     10.Click ‘Search connection’’.
+     11.Click ‘expand’ at departure '14:20 ' (MEWA’s train).
+     12.Click ‘Show intermediate stops’
+
+The expected result:
+User should receive a connection enabling them to stop in Poznań Główny for at least 10 minutes.
+
+The actual result:
+User receives a connection that does not fit for the requirements. If user decided to buy ticket for this connection probably he wouldn’t spend 10 minutes in Poznań (the train arrives at 18:26 and leaves at 18:31 - it takes only 5 minutes).
