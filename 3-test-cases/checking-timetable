@@ -1,0 +1,35 @@
+
+ID: 3
+Title: Checking the trip update according to the new timetable.
+
+Priority:
+High
+
+Prerequisites:
+None
+
+Test type:
+Positive (+)
+
+Environment:
+Windows 10, Chrome  80.0.3987.149
+
+Description:
+Test describes results for connection between Łódź Kaliska and Wrocław Główny.  Website ‘rozklad-pkp.pl’ should be updated with information included in new train timetable (source: https://polregio.pl/media/14925/linia-nr-200-lodz-kaliska-wroclaw.pdf).
+
+Test scenario:
+    1.Go to website: www.rozklad-pkp.pl.
+    2.Enter 'From': 'Łódź Kaliska'.
+    3.Enter  'To' : 'Wrocław Główny'.
+    4.Enter  'Select date': '13 April 2020'.
+    5.Click  ‘Select date’ button.
+    6.Enter  'Enter the time’ choose  '7:00'.
+    7.Click ‘‘Search connection’’.
+    8.Click relation which is started at 7:02 (train’s number - R 17501).
+    9. Compare it with sources info.
+
+The expected result:
+Train ‘R 17501’ is started from Łódź Kaliska to Poznań Główny - there is no intermediate station like Zduńska Wola.
+
+The actual result:
+User see route rail from Łódź Kaliska with change in Zduńska Wola. 
