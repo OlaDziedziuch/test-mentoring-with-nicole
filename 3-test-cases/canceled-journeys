@@ -1,0 +1,33 @@
+
+ID: 2
+Title: Displaying information about canceled international journeys
+
+Priority:
+High
+
+Prerequisites:
+None
+
+Test type:
+Negative (-)
+
+Environment:
+Windows 10, Chrome  80.0.3987.149
+
+Description:
+Test describes search results for international connection between Poland and Belarus. Due to coronavirus situation all trains to other countries than Poland are suspended for further notice. (Source:  https://portalpasazera.pl/).
+
+Test scenario:
+  1.Go to website: www.rozklad-pkp.pl.
+  2.Enter 'From': 'Białystok'.
+  3.Enter 'To': 'Grodno'.
+  4.Enter 'Select date' and choose: '8 April 2020'.
+  5.Click ‘Select date’ button.
+  6.Enter 'Enter the time’:  '14:00'.
+  7.Click ‘Search connection’’.
+
+The expected result:
+User should receive information about suspension all international trains.
+
+The actual result:
+User see four train’s connections from Poland to Belarus. Probably this connections should not be available now.
