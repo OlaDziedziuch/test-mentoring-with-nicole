@@ -1,0 +1,30 @@
+
+ID: 2
+Title: Activating the ‘Send’ button with a click.
+
+Priority:
+High
+
+Prerequisites:
+N/A
+
+Test type:
+Positive (+)
+
+Environment:
+Windows 10, Chrome  80.0.3987.149
+
+Description:
+Test describes the results of an activating ‘Send’ button with a click.
+
+Test scenario:
+1.Open the chat.
+2.In the messenger window enter:‘Hi Nicoletta. I need more info about our task. Could you give me more details?’
+3.Click the ‘Send’ button.
+4.Message has been sent.
+
+The expected results:
+1.Chat is opened.
+2.In the messenger window is entered: ‘Hi Nicoletta. I need more info about our task. Could you give me more details?’
+3.‘Send’ button is clicked.
+4.Message has been sent.
