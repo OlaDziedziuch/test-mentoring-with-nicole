@@ -1,0 +1,30 @@
+ID: 1
+
+Title: Checking the numbers of characters in the message.
+
+Priority:
+Medium
+
+Prerequisites:
+N/A
+
+Test type:
+Negative (-)
+
+Environment:
+Windows 10, Chrome  80.0.3987.149
+
+Description:
+Test describes the result of sending a message over 101 numbers of characters.
+
+Test scenario:
+    1.Open the chat.
+    2.In the messenger window enter: 'Hi Nicoletta, how are you today? :) I need more info about our task. Could you give me more details ?'.
+    3.Click ‘Send’ button.
+    4.Message has been sent.
+
+The expected results:
+    1.The chat is opened.
+    2.In the messenger window is entered:  'Hi Nicoletta, how are you today? :) I need more info about our task. Could you give me more details ?'.
+    3.‘Send’ button is clicked (it turnes gray).
+    4. Message has not been sent. The communicate is displayed: “Message contains more than 100 numbers of characters”. 
