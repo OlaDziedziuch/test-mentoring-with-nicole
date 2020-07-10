@@ -1,0 +1,31 @@
+ID: 3
+Title:
+Activating the ‘Send’ button with the ‘Enter’.
+
+Priority:
+Medium
+
+Prerequisites:
+N/A
+
+Test type:
+Negative (-)
+
+Environment:
+Windows 10, Chrome  80.0.3987.149
+
+Description:
+Test describes the results of the inability to activate ‘Send’ button with the ‘Enter’ button on keyboard.
+
+Test scenario:
+    1.Open the chat.
+    2.In the messenger window enter: ‘Hi Nicoletta. I need more info about our task. Could you give me more details?’
+    3.Press ‘Enter’ button.
+    4.Message has been sent.
+
+The expected results:
+
+    1.The chat is opened.
+    2.In the messenger window is entered:  ‘Hi Nicoletta. I need more info about our task. Could you give me more details?’
+    3.‘Enter’ button is pressed.
+    4.Message has not been sent.
