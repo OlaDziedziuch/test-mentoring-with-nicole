@@ -1,0 +1,29 @@
+
+ID:7
+Title:Checking the English syntax - underline language error.
+
+Priority:
+Low
+
+Prerequisites:
+N/A
+
+Test type:
+Negative (-)
+
+Environment:
+Windows 10, Chrome  80.0.3987.149
+
+Description:
+Test describes the results of checking English syntax. It should be not underlined in red as a language error.
+
+Test scenario:
+
+    1.Open the chat.
+    2.In the messenger window is enter: ‘Hi Nicoletta. I need more info about our task. Could you give me more details?’. 
+    3.Written text is not underlined in red.
+
+The expected results:
+    1.The chat is opened.
+    2.In the messenger window is entered:  ‘Hi Nicoletta. I need more info about our task. Could you give me more details?’. 
+    3.Written text is underlined in red (the system improves the language syntax relative to the language of the operating system - for Polish employees it refers to Polish syntax, while for German employees it refers to German syntax).
