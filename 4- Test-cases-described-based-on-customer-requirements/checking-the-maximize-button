@@ -1,0 +1,28 @@
+
+ID:5
+Title:Checking the maximize button.
+
+Priority:
+High
+
+Prerequisites:
+N/A
+
+Test type:
+Negative (-)
+
+Environment:
+Windows 10, Chrome  80.0.3987.149
+
+Description:
+Test describes the results of checking the screen maximizing button.
+
+Test scenario:
+    1.Open the chat.
+    2.Click the maximize button located in the upper right corner.
+    3.The chat window is maximized.
+
+The expected results:
+    1.The chat is opened.
+    2.Maximize button located in the upper right corner is clicked.
+    3.The chat window is not maximized (function is not implemented).
