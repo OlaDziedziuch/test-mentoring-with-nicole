@@ -1,0 +1,50 @@
+ 
+ID:9
+Title: Checking the maximum interface language selection.
+
+Priority:
+High
+
+Prerequisites:
+Making sure that the cookies are enabled.
+
+Test type:
+Negative (-)
+
+Environment:
+Windows 10, Chrome  80.0.3987.149
+
+Description:
+Test checks results of possibility to choose more than 5 interface language. 
+
+Test scenario:
+    1.Open the job search application.
+    2.Select in the Jobs section - ‘Job Age’: anytime.
+    3.Select in the Jobs section - ‘Distance’: within 5 miles.
+    4.Select in the Results section -’ How many’: 10 jobs.
+    5.Select in the Language section - 
+    ‘-English, 
+    ‘-German’ 
+    ‘-Polish’, 
+    ‘-Spanish’, 
+    ‘-Swedish’, 
+    ‘-Chinese’.
+    6.Click ‘Save preferences’.
+    7.Complete the preference name - ‘My First Choice’.
+    8.A message is displayed on a green background:
+    9.The preferences has been saved.
+    10.The preferences have been saved in ‘My Profile’ as a ‘My First Choice’’.
+
+The expected results:
+    1.The job search application is opened.
+    2.Anytime is selected in the Job Age section.
+    3.Within 5 miles is selected in the Distance section.
+    4.10 jobs is selected in the Results section.
+    5.‘-English, 
+    ‘-German’ 
+    ‘-Polish’, 
+    ‘-Spanish’, 
+    ‘-Swedish’, 
+    ‘-Chinese’.
+    are selected in Language section.
+    6.The ‘Save preferences’ button is disabled to click.
