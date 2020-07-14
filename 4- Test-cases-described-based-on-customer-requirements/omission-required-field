@@ -1,0 +1,37 @@
+
+ID:8
+Title: Omission to complete the required field.
+
+Priority:
+High
+
+Prerequisites:
+Making sure that the cookies are enabled.
+
+Test type:
+Negative (-)
+
+Environment:
+Windows 10, Chrome  80.0.3987.149
+
+Description:
+Test describes the results of attempt to save an user preferences when ‘Job Age’ (required option) is not selected.
+
+Test scenario:
+    1.Open the job search application.
+    2.Select in the Jobs section - ‘Distance’: within 5 miles.
+    3.Select in the Results section -’ How many’: 10 jobs.
+    4.Select in the Language section - 
+    ‘-English, 
+    ‘-German’ 
+    ‘-Polish’.
+    5.Click ‘Save preferences’.
+    6.Complete the preference name - ‘My Choice’.
+
+The expected results:
+    1.The job search application is opened.
+    2.5 miles is selected in the Jobs section.
+    3.10 jobs is selected in the Result section.
+    4.English, German and Polish are selected in the Language section.
+    5.The button ‘Save preferences’ is clicked.
+    6.The application is returned  'The profile cannot be saved. This option is required.' next to ‘Job Age’ field.
