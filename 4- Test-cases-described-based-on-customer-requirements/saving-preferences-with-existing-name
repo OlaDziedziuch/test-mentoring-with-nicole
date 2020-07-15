@@ -1,0 +1,42 @@
+
+ID: 11
+Title: Saving the name of preference with already existing name.
+
+Priority:
+High
+
+Prerequisites:
+Making sure that the cookies are enabled. 
+Previously saved preferences in ‘My Profile’ as a “My Second Choice”.
+
+Test type:
+Negative (-)
+
+Environment:
+Windows 10, Chrome  80.0.3987.149
+
+Description:
+The test described the result of creating next saved preferences in ‘My Profile’ with a name that already exist.
+
+Test scenario:
+1.Open the job search application.
+2.Select in the Jobs section - ‘Job age’: within 3 days.
+3.Select in the Jobs section - ‘Distance’: within 15 miles.
+4.Select in the Results section -’ How many’: 20 jobs.
+5.Select in the Language section - ‘-German’ and ‘-Chinese’.
+6.Click the ‘Save preferences’.
+7.Complete the preference name - ‘My Second Choice’.
+8.A message is displayed on a green background: The preferences has been saved.
+9.The preferences have been saved in ‘My Profile’ as a ‘My Second Choice’.
+
+The expected results:
+
+1.The job search application is opened.
+2.Within 3 days is selected in the job age section.
+3.Within 15 miles is selected in the distance section.
+4.20 jobs is selected in the result section.
+5.German and Chinese are selected in the language section.
+6.The ‘Save preference’ button is clicked.
+7.‘My second name’ is completed as a preference name.
+8.‘The Preferences has not been saved.  Profile with this name already exists. Change profile name. - message is displayed on a red background. 
+9. The preferences have not been saved in ‘My Profile’ as a ‘My Second Choice’.
