@@ -1,0 +1,40 @@
+
+ID: 10
+Title: Saving the preferences in ‘My Profile’.
+
+Priority:
+High 
+
+Prerequisites:
+Making sure that the cookies are enabled.
+
+Test type:
+Positive (+)
+
+Environment:
+Windows 10, Chrome  80.0.3987.149
+
+Description:
+The test describes a results of positive transition of  the preferences to ‘ My Profile’.
+
+Test scenario:
+    1.Open the job search application.
+    2.Select in the Jobs section - ‘Job age’: only today.
+    3.Select in the Jobs section - ‘Distance’: within 25 miles.
+    4.Select in the Results section -’ How many’: 20 jobs.
+    5.Select in the Language section - ‘-Korean’. 
+    6.Click ‘Save preferences’.
+    7.Complete the preference name - ‘My Second Choice’.
+    8.A message is displayed on a green background: The preferences has been saved.
+    9.The preferences have been saved in ‘My Profile’ as a ‘My second choice’.
+
+The expected results:
+    1.The job search application is opened.
+    2.Only today is selected in the Job age section.
+    3.Within 25 miles is selected in the Distance section.
+    4.20 jobs is selected in the Results section.
+    5.Korean is selected in the Language section.
+    6.The button ‘Save preferences’ is clicked.
+    7.‘My Second Choice’ is completed the preference name.
+    8.‘The preferences has been saved’ is displayed on a green background.
+    9.The preferences have been saved in My profile as ‘My second choice’.
