@@ -1,0 +1,30 @@
+ 
+ID:3
+Title:Subscription to the newsletter and Facebook icon - functions are invisible.
+
+Priority:
+High
+
+Severity:
+Moderate
+
+Environment:
+http://tania-sukienka.pl/, Windows 10 64 bit, Google Chrome version: 81.0.4044.114
+
+Description:
+The newsletter subscription window and social media icon redirecting to Facebook do not appear on the main page, although they are implemented.
+
+Steps to reproduce:
+1.Go to website: tania-sukienka.pl
+2.Scroll down to the brow field under the products named ‘Sukienki z długim rękawem’.
+
+Expected result:
+The newsletter subscription function should appear in the indicated place. The user should be able to enter his email address in this field. Facebook icon should appear in the indicated place. After clicking user should be transferred to the store's Facebook account.
+
+Actual result:
+There is nothing here.
+
+Attachments:
+Screen 3.01.
+Screen 3.02.
+Record 3.03.
