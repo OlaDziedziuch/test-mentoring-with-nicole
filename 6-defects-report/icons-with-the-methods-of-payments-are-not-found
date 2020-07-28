@@ -1,0 +1,34 @@
+ 
+ID: 1
+Title: Error 404 - icons with the methods of payments are not found.
+
+Priority:
+Medium
+
+Severity:
+Moderate
+
+Environment:
+http://tania-sukienka.pl/, Windows 10 64 bit, 
+Google Chrome version: 81.0.4044.114
+
+Description:
+When user click on the icon of Visa - error Not Found 404 is displayed.
+
+Steps to reproduce:
+    1.Go to website: tania-sukienka.pl
+    2.Scroll down to the icons with methods of payments located on the left side under module block ‘Bestsellers’.
+    3.Click on the icon ‘Visa’.
+    4.User is redirected to the website containing information about his payment.
+
+Expected result:
+User visit site: 
+http://tania-sukienka.pl/informacje/5-bezpieczne płatności
+
+Actual result:
+User could not visit site:  http://tania-sukienka.pl/informacje/5-bezpieczne płatności. He is redirected to another page with information about Not Found - error 404 is displayed.
+
+Attachments:
+Screen 1.01.
+Screen 1.02.
+Record 1.03.
