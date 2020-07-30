@@ -98,73 +98,76 @@ Execution Status: passed
 Execution Status: passed
 
 Step Number:	13
-Step Description:	
-Expected Result:	
-"Actual Result path 1 -  Chrome with AdBlock":	
-Execution Status: 
-"Actual Result path 2 - Chrome with Incognito Mode":	
-Execution Status: 
+Step Description:	"""Kliknij tutaj, aby zaktualizować swój profil"" link and go back to your e-mail account. Check if you have received a new message ""Newsletter testerzy.pl: Aktualizacja profilu"""
+Expected Result:	"Newsletter testerzy.pl: Aktualizacja profilu" message is received.
+"Actual Result path 1 -  Chrome with AdBlock":	"Newsletter testerzy.pl: Aktualizacja profilu" message is received.
+Execution Status: passed
+"Actual Result path 2 - Chrome with Incognito Mode":	"Newsletter testerzy.pl: Aktualizacja profilu" message is received.
+Execution Status: passed
 
 Step Number:	14
-Step Description:	
-Expected Result:	
-"Actual Result path 1 -  Chrome with AdBlock":	
-Execution Status: 
-"Actual Result path 2 - Chrome with Incognito Mode":	
-Execution Status: 
+Step Description:	"Open the message. Attach a screenshot of the opened email."
+Expected Result:	"The message is opened. Screenshot is attached"
+"Actual Result path 1 -  Chrome with AdBlock":	"The message is opened. Screenshot is attached"
+Execution Status: passed
+"Actual Result path 2 - Chrome with Incognito Mode":	"The message is opened. Screenshot is attached"
+Execution Status: passed
 
 Step Number:	15
-Step Description:	
-Expected Result:	
-"Actual Result path 1 -  Chrome with AdBlock":	
-Execution Status: 
-"Actual Result path 2 - Chrome with Incognito Mode":	
-Execution Status: 
+Step Description:	Click on "Zaktualizuj swoje preferencje" link in the email and check that a new page "Newsletter - Zaktualizuj swoje preferencje" is opened.
+Expected Result:	"Newsletter - Zaktualizuj swoje preferencje" page is opened.
+"Actual Result path 1 -  Chrome with AdBlock":	"Newsletter - Zaktualizuj swoje preferencje" page is opened.
+Execution Status: passed
+"Actual Result path 2 - Chrome with Incognito Mode":	"Newsletter - Zaktualizuj swoje preferencje" page is opened.
+Execution Status: passed
 
 Step Number:	16
-Step Description:	
-Expected Result:	
-"Actual Result path 1 -  Chrome with AdBlock":	
-Execution Status: 
-"Actual Result path 2 - Chrome with Incognito Mode":	
-Execution Status: 
+Step Description:	"Click on the ""Rezygnacja z subskrypcji"" link and check that a new page is opened. Attach a screenshot"
+Expected Result:	"A new page ""Rezygnacja z subskrypcji"" is opened. Screenshot is attached"
+"Actual Result path 1 -  Chrome with AdBlock":	"A new page ""Rezygnacja z subskrypcji"" is opened. Screenshot is attached"
+Execution Status: passed
+"Actual Result path 2 - Chrome with Incognito Mode":	"A new page ""Rezygnacja z subskrypcji"" is opened. Screenshot is attached"
+Execution Status: passed
 
 Step Number:	17
-Step Description:	
-Expected Result:	
-"Actual Result path 1 -  Chrome with AdBlock":	
-Execution Status: 
-"Actual Result path 2 - Chrome with Incognito Mode":	
-Execution Status: 
+Step Description:	Confirm cancelling the subscription by clicking on the Rezygnacja z subskrypcji button.
+Expected Result:	User confirmed cancelling the subscription.
+"Actual Result path 1 -  Chrome with AdBlock":	User confirmed cancelling the subscription.
+Execution Status: passed
+"Actual Result path 2 - Chrome with Incognito Mode":	User confirmed cancelling the subscription.
+Execution Status: passed
 
 Step Number:	18
-Step Description:	
-Expected Result:	
-"Actual Result path 1 -  Chrome with AdBlock":	
-Execution Status: 
-"Actual Result path 2 - Chrome with Incognito Mode":	
-Execution Status: 
+Step Description:	Choose a reason why are cancelling the subscription and click on Wyślij.
+Expected Result:	A reason why the user is cancelling the subscription is chosen and sent.
+"Actual Result path 1 -  Chrome with AdBlock":	A reason why the user is cancelling the subscription is chosen and sent.
+Execution Status: passed
+"Actual Result path 2 - Chrome with Incognito Mode":	A reason why the user is cancelling the subscription is chosen and sent.
+Execution Status: passed
 
 Step Number:	19
-Step Description:	
-Expected Result:	
-"Actual Result path 1 -  Chrome with AdBlock":	
-Execution Status: 
-"Actual Result path 2 - Chrome with Incognito Mode":	
-Execution Status: 
+Step Description:	"Open the testerzy.pl website again, click on News tab and:
+- locate the newsletter icon on the right side of the page
+- provide the same e-mail address as in step 3
+- click on Zapisz"
+Expected Result:	testerzy.pl website is opened again and the same email address is provided and saved under the newsletter icon.
+"Actual Result path 1 -  Chrome with AdBlock":	Testerzy.pl website is opened again and the same email adress is provided and saved . The newsletter icon is still no available.
+Execution Status: failed
+"Actual Result path 2 - Chrome with Incognito Mode":	testerzy.pl website is opened again and the same email address is provided and saved under the newsletter icon.
+Execution Status: passed
 
 Step Number:	20
-Step Description:	
-Expected Result:	
-"Actual Result path 1 -  Chrome with AdBlock":	
-Execution Status: 
-"Actual Result path 2 - Chrome with Incognito Mode":	
-Execution Status: 
+Step Description:	Check that you are redirected to the same page as in step 5.
+Expected Result:	The same page as in step 5 is displayed.
+"Actual Result path 1 -  Chrome with AdBlock":	The same page as in step 5 is displayed.
+Execution Status: passed
+"Actual Result path 2 - Chrome with Incognito Mode":	The same page as in step 5 is displayed.
+Execution Status: passed
 
 Step Number:	21
-Step Description:	
-Expected Result:	
-"Actual Result path 1 -  Chrome with AdBlock":	
-Execution Status: 
-"Actual Result path 2 - Chrome with Incognito Mode":	
-Execution Status: 
+Step Description:	Close the page and log out from your email account.
+Expected Result:	Page is closed. User is logged out from the email account.
+"Actual Result path 1 -  Chrome with AdBlock":	Page is closed. User is logged out from the email account.
+Execution Status: passed
+"Actual Result path 2 - Chrome with Incognito Mode":	Page is closed. User is logged out from the email account.
+Execution Status: passed
