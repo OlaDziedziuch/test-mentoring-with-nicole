@@ -1,0 +1,16 @@
+Test Case ID	1_01
+	
+Test Name	testerzy.pl newsletter new subscription, change of preferences and cancelling the subscription
+	
+Test Objective	This test case is to verify if it is possible to subscribe to the testerzy.pl newsletter, edit the subscription profile (changing the name) and unsubscribe from the email newsletter.
+	
+High-level steps:	"1. Navigate to testerzy.pl
+2. Subscribe to email newsletter.
+3. Check that you have received an email.
+4. Unsubscribe from the newsletter.
+5. Go back to testerzy.pl and check that you can subscribe to the email newsletter again."
+	
+Preconditions:	"an active email account (correct login and password are known)
+which could not be used before to subscribe to the testerzy.pl newsletter"
+	
+Additional information	this test case should be performed on Windows, macOS
