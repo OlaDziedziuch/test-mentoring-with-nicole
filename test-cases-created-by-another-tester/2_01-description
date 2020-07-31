@@ -1,0 +1,16 @@
+Test Case: ID	2_01
+	
+Test Name:	testerzy.pl search functionality
+	
+Test Objective:	This test case is to verify if it is possible to display and hide the search field and if correct search results are displayed after performing a simple search.
+	
+High-level steps:	
+"1. Navigate to testerzy.pl.
+2. Locate the search icon and check that the search field is displayed.
+3. Hide the search field.
+4. Perform a simple search.
+5. Check if correct search results are displayed."
+	
+Preconditions:	N/A
+	
+Additional information:	this test case should be performed on Windows, macOS
