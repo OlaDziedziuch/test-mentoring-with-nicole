@@ -1,65 +1,65 @@
 Step Number:1
-Step Description:
-Expected Result:
-Actual Result:	
-Execution Status: 
+Step Description: Navigate to testerzy.pl
+Expected Result: testerzy.pl page is opened.
+Actual Result:	 testerzy.pl page is opened.
+Execution Status: passed
 
 Step Number:2
-Step Description:
-Expected Result:
-Actual Result:	
-Execution Status: 
+Step Description: Locate the search icon (hint: magnifying glass) on the top right side of the page and click on it.
+Expected Result: Search icon is located.
+Actual Result:	 Search icon is located.
+Execution Status: passed
 
 Step Number:3
-Step Description:
-Expected Result:
-Actual Result:	
-Execution Status: 
+Step Description: Check that a search field "Napisz, czego szukasz..." is displayed. Attach a screenshot.
+Expected Result: Search field is displayed. Screenshot is attached.
+Actual Result:	Search field is displayed. Screenshot is attached.
+Execution Status: passed
 
 Step Number:4
-Step Description:
-Expected Result:
-Actual Result:	
-Execution Status: 
+Step Description: Click on the search icon again and check that the search field is hidden. Attach a screenshot.
+Expected Result: Search field is hidden. Screenshot is attached.
+Actual Result:	Search field is hidden. Screenshot is attached.
+Execution Status: passed
 
 Step Number:5
-Step Description:
-Expected Result:
-Actual Result:	
-Execution Status: 
+Step Description: Click on the search icon and check that the search field is displayed again.
+Expected Result: Search field is displayed again.
+Actual Result:	 Search field is displayed again.
+Execution Status: passed
 
 Step Number:6
-Step Description:
-Expected Result:
-Actual Result:	
-Execution Status: 
+Step Description: In the search field provide some numbers (i.e "123") and click enter.
+Expected Result: Numbers are provided in the search field.
+Actual Result:	Numbers are provided in the search field.
+Execution Status: passed
 
 Step Number:7
-Step Description:
-Expected Result:
-Actual Result:	
-Execution Status: 
+Step Description: Check that a list with correct search results is displayed. Attach a screenshot.
+Expected Result: List with correct search results is displayed. Screenshot is attached.
+Actual Result:	List with correct search results is not displayed. Screenshot is attached.
+Execution Status: failed
 
 Step Number:8
-Step Description:
-Expected Result:
-Actual Result:	
-Execution Status: 
+Step Description: Click on the search icon again and in the search field provide some letters (i.e "test").
+Expected Result: Letters are provided in the search field.
+Actual Result:	 Letters are provided in the search field.
+Execution Status: passed
 
 Step Number:9
-Step Description:
-Expected Result:
-Actual Result:	
-Execution Status: 
+Step Description: Click on the search icon.
+Expected Result: The search icon is clicked.
+Actual Result:	The search icon is clicked.
+Execution Status: passed
 
 Step Number:10
-Step Description:
-Expected Result:
-Actual Result:	
-Execution Status: 
+Step Description: Check that a list with correct search results is displayed. Attach a screenshot.
+Expected Result: List with correct search results is displayed. Screenshot is attached.
+Actual Result:	"List with correct search results is not displayed. Screenshot is attached.
+Execution Status: failed
 
 Step Number:11
-Step Description:
-Expected Result:
-Actual Result:	
-Execution Status: 
+Step Description: Close the page.
+Expected Result: The page is closed.
+Actual Result:	 The page is closed.
+Execution Status: passed
