@@ -1,0 +1,96 @@
+ 
+ID: 2
+Title: Renewed subscribing to the newsletter by using the same email address which was before used to.
+
+Priority:
+Medium
+
+Severity:
+Moderate
+
+Environment:
+Website: http://testerzy.pl, 
+OS: Windows 10 64 bit, 
+Browser: Google Chrome version: 81.0.4044.114.
+
+Description:
+The user can subscribe to the newsletter again, using the same email address, which he provided by the first time.
+
+Steps to reproduce:
+      1.Navigate to testerzy.pl
+      2. Click on News tab and locate the newsletter icon on the right side of the page.
+      3.In "Adres e-mail" field provide the e-mail address account from preconditions.
+      4.Click on Zapisz button.
+      5. Check that you are redirected to a new page informing that an email was sent to you.
+      6.Go to your email account and log in.
+      7.Check that you have received a message "Newsletter testerzy.pl: Proszę potwierdzić subskrypcję" and open it.
+      8.onfirm the subscription by clicking on the Kliknij tutaj, aby potwierdzić subskrypcję do naszej listy.
+      9.Check that a new page with newsletter subscription confirmation is displayed.
+      10.Click on Kontynuuj do strony button.
+      11.Click on News tab and:
+      - locate the newsletter icon on the right side of the page
+      - provide the same e-mail address as in step 3
+      - click on Zapisz
+      12.Check that you are redirected to a new page where an information that you've already subscribe to the newsletter is displayed.
+      13."Kliknij tutaj, aby zaktualizować swój profil" link and go back to your e-mail account.
+      14.Check if you have received a new message "Newsletter testerzy.pl: Aktualizacja profilu"
+      15.Open the message
+      16.Click on "Zaktualizuj swoje preferencje" link in the email and check that a new page "Newsletter - Zaktualizuj swoje preferencje" is opened.
+      17.Click on the "Rezygnacja z subskrypcji" link and check that a new page is opened.
+      18.Confirm cancelling the subscription by clicking on the Rezygnacja z subskrypcji button.
+      19.Choose a reason why are cancelling the subscription and click on Wyślij.
+      20.Open the testerzy.pl website again, click on News tab and:
+      - locate the newsletter icon on the right side of the page
+      - provide the same e-mail address as in step 3
+      - click on Zapisz
+      Check that you are redirected to the same page as in step 5.
+      21.Close the page and log out from your email account.
+
+Expected result:
+      1.testerzy.pl page is opened.
+      2. Newsletter icon is located. 
+      3.Email address is provided in the "Adres e-mail" field.
+      4.Email address is saved.
+      5.User is redirected to a new page informing that and email was sent to him.
+      6.User is logged in to the email account.
+      7."Newsletter testerzy.pl: Proszę potwierdzić subskrypcję" message is received.
+      8.User is confirmed the subscription.
+      9.User is redirected to a new page with newsletter subscription confirmation.
+      10.Testerzy.pl page is displayed.
+      11.Email address as in step 3 is provided and saved.
+      12.User is redirected to a new page informing that he has already subscribed to the newsletter.
+      13."Newsletter testerzy.pl: Aktualizacja profilu" message is received.
+      14.Message is opened.
+      15."Newsletter - Zaktualizuj swoje preferencje" page is opened.
+      16.A new page "Rezygnacja z subskrypcji" is opened.
+      17. User confirmed cancelling the subscription.
+      18. A reason why the user is cancelling the subscription is chosen and sent.
+      19.testerzy.pl website is opened again and the same email address is provided and saved under the newsletter icon.
+      20.The same page as in step 5 is displayed.
+      21.Page is closed. User is logged out from the email account.
+
+Actual results:
+      1.Testerzy.pl page is opened.
+      2.Newsletter icon is located.
+      3.Email address is provided in the "Adres e-mail" field.
+      4.Email address is saved.
+      5.User is redirected to a new page informing that and email was sent to him.
+      6.User is logged in to the email account.
+      7."Newsletter testerzy.pl: Proszę potwierdzić subskrypcję" message is received.
+      8.User confirmed the subscription.
+      9.User is redirected to a new page with newsletter subscription confirmation.
+      10.Testerzy.pl page is displayed.
+      11.Email address as in step 3 is provided and saved.
+      12.User is redirected to a new page informing that he has already subscribed to the newsletter.
+      13."Newsletter testerzy.pl: Aktualizacja profilu" message is received.
+      14. Message is opened.
+      15."Newsletter - Zaktualizuj swoje preferencje" page is opened.
+      16.A new page "Rezygnacja z subskrypcji" is opened.
+      17.User confirmed cancelling the subscription.
+      18.A reason why the user is cancelling the subscription is chosen and sent.
+      19.testerzy.pl website is opened again and the same email address is provided and saved under the newsletter icon.
+      20.The same page as in step 5 is displayed.
+      21.Page is closed. User is logged out from the email account.
+
+Attachments:
+Screenshot TC1_01_3
