@@ -1,0 +1,34 @@
+ 
+ID: 1
+Title:The newsletter icon is not displayed when the page is blocking by ad blocking plugin.
+
+Priority:
+Low
+
+Severity:
+Cosmetic
+
+Environment:
+website: http://testerzy.pl, 
+OS: Windows 10 64 bit, 
+Browser: Google Chrome version: 81.0.4044.114, 
+AdBlock version: 10.4.0.
+
+Description:
+Newsletter icon is not displayed when ad blocking plugin is included - error code is displayed : Failed to load resource: net :: ERR_BLOCKED_BY_CLIENT
+
+Steps to reproduce:
+    1.Navigate to testerzy.pl
+    2.Click News tab and locate the newsletter icon on the right side of the page.
+
+Expected result:
+    1.Testerzy.pl page is opened.
+    2.Newsletter icon is located.
+
+Actual result:
+     1.Testerzy.pl page is opened.
+     2.Newsletter icon is not located.
+
+Attachments:
+Screenshot TC1_01_1
+Screenshot TC1_01_2
