@@ -1,0 +1,53 @@
+ 
+ID: 3
+Title:Search functionality is not working.
+
+Priority:
+High
+
+Severity:
+Moderate
+
+Environment:
+website: http://testerzy.pl, 
+OS: Windows 10 64 bit, 
+Browser: Google Chrome version: 81.0.4044.114
+
+Description:
+Test describes the results of possibility to finding correct search results after performing a simple search.
+
+Steps to reproduce:
+    1.Navigate to testerzy.pl
+    2.Locate the search icon (hint: magnifying glass) on the top right side of the page and click on it.
+    3.Check that a search field ""Napisz, czego szukasz..."" is displayed.
+    4.In the search field provide some numbers (i.e "123") and click enter.
+    5.Check that a list with correct search results is displayed.
+    6.Click on the search icon again and in the search field provide some letters (i.e "test").
+    7.Click on the search icon.
+    8.Check that a list with correct search results is displayed.
+    9.Close the page.
+
+Expected result:
+    1.Testerzy.pl page is opened.
+    2.The search icon is located.
+    3.The search field is displayed.
+    4.The umbers are provided in the search field.
+    5.A list with correct search results is displayed.
+    6.The etters are provided in the search field.
+    7.The search icon is clicked.
+    8.A list with correct search results is displayed.
+    9.The page is closed.
+
+Actual result:
+    1.Testerzy.pl page is opened.
+    2.The search icon is located.
+    3.The search field is displayed.
+    4.The numbers are provided in the search field.
+    5.A list with correct search results is not displayed.
+    6.The letters are provided in the search field.
+    7.The search icon is clicked.
+    8.A list with correct search results is not displayed.
+    9.The page is closed.
+
+Attachments:
+Screenshot TC 1_01_4
