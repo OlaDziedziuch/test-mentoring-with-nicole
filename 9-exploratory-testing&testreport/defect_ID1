@@ -1,0 +1,31 @@
+ 
+ID: 1
+Title: “Do koszyka” button is not visible for out of stock products.
+
+Priority:
+Medium
+
+Severity:
+Moderate
+
+Environment:
+https://zielarnia24.pl/najpopularniejsze-produkty,42.html
+Windows 10 64 bit, 
+Google Chrome version: 81.0.4044.114
+
+Description:
+After opening the link with the most popular product located on the down on the homepage, some of them are not available with the ‘Do koszyka” button.
+
+Steps to reproduce:
+    1.Go to website: zielarnia24.pl
+    2.Scroll down to the “Najpopularniejsze produkty” tab and click.
+    3.Find product ‘Korzeń rzewienia 50g Kawon’.
+
+Expected result:
+Available products are displayed on the page. Each of them has a button referring to the action (CTA). If the product is not available, ‘Powiadom o dostępności' button is displayed.
+
+Actual result:
+Available products are displayed on the page. If the product is not available, a rare button will not be displayed.
+
+Attachment:
+SS_ID1
