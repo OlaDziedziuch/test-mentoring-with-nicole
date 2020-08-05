@@ -5,5 +5,9 @@ The repository consists of tasks prepared by an experienced Test Lead to counter
 2. Next test cases described for facebook.com page.
 3. Test cases based on rozklad-pkp.pl.
 4. Test cases described based on customer requirements.
-5. Exploratory testing made for zaprojektuj-koszulke.pl
+5. Exploratory testing made for zaprojektuj-koszulke.pl.
 6. Defects report based on tania-sukienka.pl webpage.
+7. Test cases created by another- execution and verification of the created case and creation of a defect report based on testerzy.pl.
+8. Exploratory testing & test report made for zielarnia24.pl - creation for the first time test report.
+
+
