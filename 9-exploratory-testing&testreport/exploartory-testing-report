@@ -1,0 +1,31 @@
+Exploratory testing report
+
+Website: 
+https://zielarnia24.pl/index.html
+
+Test environment: 
+Windows 10 Home 1930 64-bit, Chrome 80.0.3987.149
+
+Date and time: 
+14.05.2020 11-12 am
+
+System quality assessment: Website makes an impression that contains too much unnecessary information - is a combination of a static website, an online store and a company blog.
+This can cause fast page overloading, which results in the website loading being slow. (e.g while the user is searching for products or making an order). Probably website is not scalable - for less skilled users some of functions can be blocked to use, because they can't see them. This can be a serious problem also for mobile devices users. Moreover there are many elements that need to be improved to increase readability and attractiveness on the UX side (it is recommended to use the UX / UI designer service).
+
+Defects found:
+ID_1 - “Do koszyka” button is not visible for out of stock products” (page 2).
+ID_2 - “Quantity functionality is not implemented in the product card” (page 3).
+
+Suggestions:
+
+Pros (+):
+- nice to see that there is a feature that allows you to report a bug,
+- correctly working filters on the search function.
+
+Cons(-):
+- the language change function which is on the left side of the home page is incomprehensible, because if user wants to change the language he needs to know how to write his language in Polish (e.g there is no English, only ‘angielski’),
+- too much information that is replicated in many places (e.g information about the store can be found by clicking on: 1) “O Zielarni” tab, located in the main menu, 2)  “O sklepie” tab,  located on the down of the home page.
+- important tabs (‘najpopularniejsze produkty’, ‘produkty wyprzedażowe’) are located in a place that is not very attractive to the user (at the end of the home page, where user probably wouldn’t scroll. Additionally these tabs are written by small font).
+- the page contains many typos (e.g “ Zestw White Tea Turmeric Tea Kubek Yogi Tea”),
+- graphic chaos - probably many graphics were used, which were converted into a graphic program like Paint. It means that it can be probably difficult to modify the information contained in such images (e.g “Koszty dostawy’),
+- it is possible that the user could not see all functions or information  (e.g if user will scroll to zoom the website, probably there is a high probability that the button from the "Szybkie zamówienie" window, which is called "Poproś o ofertę" will not be visible).
