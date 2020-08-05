@@ -1,0 +1,32 @@
+ 
+ID: 2
+Title: Quantity functionality is not implemented in the product card.
+
+Priority:
+Medium
+
+Severity:
+Minor
+
+Environment:
+https://zielarnia24.pl/zywnosc,330.html
+Windows 10 64 bit, 
+Google Chrome version: 81.0.4044.114
+
+Description:
+The quantity functionality is missing when the user is displaying specific product. It means that it is able to purchase a maximum of one product.
+
+Steps to reproduce:
+    1.Go to the website: zielarnia24.pl
+    2. Click the “Zioła’ category located on the left side, on the green field.
+    3. Scroll to the all products.
+    4. Click “Adaptomix 50g Natura Wita”.
+
+Expected result:
+User can choose the quantity of this product (e.g customer would like to buy three pieces of the product). Then he selects the quantity and clicks on ‘Dodaj do koszyka” button.
+
+Actual result:
+User can’t choose the quantity of this product. It is only possible to click on ‘Dodaj do koszyka” button. 
+
+Attachment:
+SS_ID2
