@@ -1,0 +1,24 @@
+You reported a defect in Jira, developer says it's not a bug ("it's a feature").
+
+1. I would ask some additional questions:
+Why does he think that this is not a defect?
+What is the feature and what is the purpose of its implementation?
+
+2. After receiving the response:
+I will present my opinion why I think that the given implementation contains a defect and possible consequences of leaving it.
+
+3. Together we discuss the pros and cons of the reported defect. If we cannot reach a consensus - we  can discuss the problem with whole team which we work with. 
+ 
+Example:
+ 
+“Tester: - Hey Bartek! I noticed you undone the defect in Jira. Why do you think that the X bug report does not contain a bug?
+Developer Bartek: This is not a mistake, it is feature.
+Tester: - What feature is it?
+Bartek: <Some strange technical gibberish incomprehensible to the tester.>
+Tester: And what is the purpose of its implementation?
+ Bartek: <Some strange another technical gibberish incomprehensible to the tester.>
+Tester: OK. Does business expect such functionality from us?
+ Bartek: Of course.
+Tester: In my opinion, it's still a bug. I think, because ...
+ Bartek: And in my opinion it's ... ..
+Tester: What do you think about talk to another? Let's try to discuss this problem with our team on tomorrow’s daily?
