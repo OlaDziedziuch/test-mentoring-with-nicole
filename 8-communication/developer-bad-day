@@ -1,0 +1,9 @@
+The developer reacts aggressively and claims that he has no time for such things, he has more important tasks to do.
+
+First of all, I would agree that developer has a lot of work (that's why I'm trying to understand his approach).
+ I’d present logical and rational reasons why a given defect was reported (paying attention to priority and severity), presenting possible pessimistic scenarios that could come true without fixing the bug. I would add that this is not a personal attack (it would help to report the error in the most balanced way - instead of "I do not like something" then "user might not like it”). Moreover I’d refer to the ability to empathize with the role of the user, not from developer’s side.
+ 
+Example:
+Let's assume that tester reported a bug regarding that the website is loading slowly (more than 6 sec).
+ “ Bartek, I realize that you have a lot of work at the moment - you have to in the same time take care about new features and fix all bugs. I agree that it must take a long time.
+ I am aware that for you this submission may not be very important for you. But please, note it - priority and severity is fixed on the medium. It may mean that ignoring this defect could (but does not have to) be deplorable. I can agree that it may not affect the operation of the entire system, but look at this bug from the UX perspective. You are getting angry when the website slowly responds, aren’t you? In this case why don't you treat usefulness as a bug?” 
