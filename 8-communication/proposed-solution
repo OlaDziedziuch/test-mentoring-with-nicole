@@ -1,0 +1,20 @@
+You have proposed your solution to the problem - someone on the team does not agree with it - what are you doing?
+
+I try to find the best solution together with team. First of all, I would ask a person (who is not convinced for my idea) to justify his opinion that the solution is wrong. Then I’d ask if we could modify it.  I don't cling to my solution if someone can logically explain why my idea is not the best (e.g. lack of knowledge of a specific technology to solve the problem). Next I would ask this guy about his suggestion for solving problem.  In the meantime, I'd suggest a typical brainstorm with the other team members. Then I would discuss the collected ideas with the most experienced employees in order to propose the most optimal solution.
+ 
+Example:
+“Me: I have an idea - we should do exploratory tests.
+Someone: I’m afraid that your concept is not the best solution.
+Me: Why do you think that?
+Someone: It’s impossible. We don’t have much time for it. Our client is impatient and he only expects to test the most important functionalities. And you know -  we have to fit in the budget.
+Me:  Hmmm… Have you ever tried do suggest this kind of tests?
+Someone: Yes, we tried, but business wasn't convinced.
+Me: Why?
+Someone: Our team was not experienced - we had 4 Juniors and 1 Senior. 
+Me: But that has changed, hasn’t it?
+Someone: Yes, now we have additionally 3 more experienced Middles. 
+Me: What do you think - should we try to convince our client  one more time?
+Someone: Hmmm.. I don’t know. I should talk to our supervisor. 
+Me: I have another idea - Maybe all testers will do sample exploratory testing for 15 minutes. If the results surprise us, why not to show this results to our client? We don't risk anything, but maybe we'll gain. There is also now a higher probability of finding high severity bugs, because the system has much more functionality than it had during the first exploration tests.”
+Someone: Great idea, but firstly I need to talk to supervisor. If he will agree we make a meeting and discuss who will perform which part of system. 
+Me: Great! What do you think about brainstorming?
