@@ -10,5 +10,6 @@ The repository consists of tasks prepared by an experienced Test Lead to counter
 7. Test cases created by another- execution and verification of the created case and creation of a defect report based on testerzy.pl.
 8. Communication - the soft skills tasks which show the way of cooperation in conflict situations.
 9. Exploratory testing & test report made for zielarnia24.pl - creation for the first time test report.
+10. Test plan created for the Databucket Application (MrBuggy5).
 
 
