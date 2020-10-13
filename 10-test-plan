@@ -1,1 +1,153 @@
+Test Plan - Databucket
+
+1. Introduction - analysis
+
+This document presents a test plan for the Databucket system. The purpose is to present a strategy for testing process.
+
+Databucket is a free solution for test data management purposes. The goal is to easily create, modify, use and delete a sets of properties, especially in multiplayer team or in multithreaded test automation. Databucket stores data as bundles of properties where the property is a pair of the name and value.
+
+The basic functions of the software are:
+- manual testing
+- test automation
+- performance testing
+- test data generation
+- service virtualization.
+
+Testing is carried out on the basis of requirements documentation attached to the application (Documentation of Databucket).
+
+2. Test strategy
+
+2.1 Scope of testing
+In scope:
+- Functional testing - main functionalities described in Documentation of Databucket (include: database structures, database functions). 
+
+Areas to be tested:
+Functionality - test activities set by priority:
+
+High:
+Tags, bundles
+Data sources: 
+- add new data sources,
+- modifying and removing existing data sources.
+Tables:
+- add and removing.
+- add and removing tags, 
+- add, modifying and removing bundles.
+
+Properties:
+- add, modifying and removing.
+
+Medium:
+Import and export bundles.
+Copy and duplicate bundles. 
+UI elements:
+- main menu, 
+- main toolbar, 
+- bundle list toolbar, 
+- properties list toolbar, 
+- bundles and Properties lists.
+
+Filter, tag base properties:
+-filter decoration on the tree, actions,
+-save base lists of properties.
+
+Auto-Type Sequences:
+- ATS decoration on the tree,
+- execute ATS,
+- edit.
+
+Device needed for testing:
+Any PC/ Laptop
+
+2.2 Out of scope:
+non functional testing such as stress or performance.
+
+2.3 Testing type
+The application will be tested for API Testing.
+
+2.4 Risk & Issues
+Risk: Not enough time to test the whole application.
+Migration: Focus on the most important components to test (set Test Plan with set the priority setting).
+
+Risk: Team member lack the required skills for website testing.	
+Migration: Plan training course to skill up your members.
+
+2.5 Test logistic
+Test logistic will consist of three components:
+project documentation - Documentation of Databucket,
+test environment - Databucket application,
+human resources - one test leader and two manual testers.
+
+The planned test process is included:
+- planning and analysis,
+- test design,
+- test execution,
+- presenting the results in the final report.
+
+The tests will use combined approaches - based on checklist analytical, such as test-cases testing.
+
+3. Test objective (https://drive.google.com/drive/u/0/folders/1oBv3IhBAjHNi2bLidYYAFObxXkgi1Vea) 
+
+4.Test criteria
+4a.Entry criteria:
+- readiness test environment is available,
+- test tool is readiness in the test environment,
+- available code is testable,
+- available test data,
+- one trained employee.
+
+4b.Exit criteria:
+- mesure:
+Run rate should be at least 80% test coverage test.
+
+-estimates:
+The best case estimate:
+- the tester will create more than 50 test cases during 15 man-hours,
+- during the course of the test, the tester will make about 90% of the retests,
+- the tester will report all found defects in Jira, create a test report and a detailed RTM Matrix, containing all test cases divided into individual categories in the system.
+
+The most likely estimate:
+- the tester will create at least 50 test cases in 20 man-hours,
+- during the course of the test, the tester will perform about 50% of the retests,
+- the tester will report all found defects in Jira and create a test report and an RTM Matrix, containing  the most important test cases (modules with the highest number of reported defects).
+
+The worst case estimate:
+- the tester will not create even 20 test cases during 20 man-hours,
+- during the course of the test, the tester will make only 20% of the retests,
+- the tester will report all found defects in Jira and create a defect report,
+- the tester will leave the company during the tests performed.
+
+- cost (20-man hours)
+
+- residual risks:
+
+  - defects not fixed - less than 10% of all found defects
+  - lack of test coverage in certain areas (Filter, tag base properties and Auto-Type Sequences).
+
+5. Resource planning
+
+5.1 Human Resource
+Test manager: manage whole project and define project directions.
+Two manual testers: prepare sample test cases and report the defects.
+
+5.2 System Resource
+Server should be installed the desktop application under the test,
+Computer / Laptop - the PC which user use to connect with application.
+
+6.Schedule and estimation
+
+Create the test specification: 1 day
+Perform test execution: 1 day
+Test report - preparing defects report: 1 day
+TOTAL: 5 days
+
+7. Test deliverables
+Test deliverables are provided before testing:
+- Test Plans,
+- Test Cases,
+Test deliverables are provided during the testing:
+- Test Traceability Matrix,
+Test deliverables are provided after the testing:
+- Defect Report,
+- Defect attachments (screenshots).
 
